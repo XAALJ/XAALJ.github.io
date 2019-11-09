@@ -88,7 +88,7 @@
 <meta property="og:description" content="参考链接蓝图推送 ouuan的博客 lxmic的简书 code004的博客 出现问题1 网页地址跳转错误 问题内容 点击边栏里的“标签”等选项之后，没有跳转到正确的页面，地址后会自动加上‘%20’，e.g.https:&#x2F;&#x2F;xaalj.github.io&#x2F;%20">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https:&#x2F;&#x2F;xaalj.github.io&#x2F;blog&#x2F;2019&#x2F;11&#x2F;10&#x2F;First-Hexo&#x2F;url.png">
-<meta property="og:updated_time" content="2019-11-09T16:57:36.392Z">
+<meta property="og:updated_time" content="2019-11-09T18:24:59.354Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https:&#x2F;&#x2F;xaalj.github.io&#x2F;blog&#x2F;2019&#x2F;11&#x2F;10&#x2F;First-Hexo&#x2F;url.png">
 
@@ -407,6 +407,31 @@
 <li><p>感谢“晓羽”大佬</p>
 </li>
 </ul>
+<h4 id="2-hexo-g后报错"><a href="#2-hexo-g后报错" class="headerlink" title="2 hexo g后报错"></a>2 <code>hexo g</code>后报错</h4><ul>
+<li><p>问题内容</p>
+<p>在一次<code>hexo cl</code>后，突然报错<code>duplicated mapping key</code></p>
+</li>
+<li><p>问题原因</p>
+<p>旧版本2.xhexo的主题配置文件书写格式不规范，没有好好缩进，导致编译时会发现有两个一样的mapping key，但实际上各自为一项下面的子项</p>
+</li>
+<li><p>解决办法</p>
+<p>把不规范的缩进全部进行修改</p>
+<p>错误范例：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">menu_buttons:</span><br><span class="line">enable: true</span><br><span class="line"></span><br><span class="line">toc:</span><br><span class="line">enable: true</span><br></pre></td></tr></table></figure>
+
+<p>正确修正：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">menu_button:</span><br><span class="line">  enable: true</span><br><span class="line">  </span><br><span class="line">toc:</span><br><span class="line">  enable: true</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+</li>
+</ul>
 
       
     </div>
@@ -588,7 +613,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#参考链接"><span class="nav-number">1.</span> <span class="nav-text">参考链接</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#出现问题"><span class="nav-number">2.</span> <span class="nav-text">出现问题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-网页地址跳转错误"><span class="nav-number">2.1.</span> <span class="nav-text">1 网页地址跳转错误</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#参考链接"><span class="nav-number">1.</span> <span class="nav-text">参考链接</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#出现问题"><span class="nav-number">2.</span> <span class="nav-text">出现问题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-网页地址跳转错误"><span class="nav-number">2.1.</span> <span class="nav-text">1 网页地址跳转错误</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-hexo-g后报错"><span class="nav-number">2.2.</span> <span class="nav-text">2 hexo g后报错</span></a></li></ol></li></ol></div>
             
 
           </div>

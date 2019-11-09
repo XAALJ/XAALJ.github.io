@@ -24,6 +24,31 @@
 <li><p>感谢“晓羽”大佬</p>
 </li>
 </ul>
+<h4 id="2-hexo-g后报错"><a href="#2-hexo-g后报错" class="headerlink" title="2 hexo g后报错"></a>2 <code>hexo g</code>后报错</h4><ul>
+<li><p>问题内容</p>
+<p>在一次<code>hexo cl</code>后，突然报错<code>duplicated mapping key</code></p>
+</li>
+<li><p>问题原因</p>
+<p>旧版本2.xhexo的主题配置文件书写格式不规范，没有好好缩进，导致编译时会发现有两个一样的mapping key，但实际上各自为一项下面的子项</p>
+</li>
+<li><p>解决办法</p>
+<p>把不规范的缩进全部进行修改</p>
+<p>错误范例：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">menu_buttons:</span><br><span class="line">enable: true</span><br><span class="line"></span><br><span class="line">toc:</span><br><span class="line">enable: true</span><br></pre></td></tr></table></figure>
+
+<p>正确修正：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">menu_button:</span><br><span class="line">  enable: true</span><br><span class="line">  </span><br><span class="line">toc:</span><br><span class="line">  enable: true</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+</li>
+</ul>
 ]]></content>
       <categories>
         <category>blog</category>

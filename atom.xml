@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xaalj.github.io/"/>
-  <updated>2019-11-09T16:41:20.737Z</updated>
+  <updated>2019-11-09T16:57:36.392Z</updated>
   <id>https://xaalj.github.io/</id>
   
   <author>
@@ -21,17 +21,17 @@
     <link href="https://xaalj.github.io//blog/2019/11/10/First-Hexo/"/>
     <id>https://xaalj.github.io//blog/2019/11/10/First-Hexo/</id>
     <published>2019-11-09T16:18:57.000Z</published>
-    <updated>2019-11-09T16:41:20.737Z</updated>
+    <updated>2019-11-09T16:57:36.392Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h3 id=&quot;参考链接&quot;&gt;&lt;a href=&quot;#参考链接&quot; class=&quot;headerlink&quot; title=&quot;参考链接&quot;&gt;&lt;/a&gt;参考链接&lt;/h3&gt;&lt;p&gt;&lt;a
-        
-      
+      &lt;h3 id=&quot;参考链接&quot;&gt;&lt;a href=&quot;#参考链接&quot; class=&quot;headerlink&quot; title=&quot;参考链接&quot;&gt;&lt;/a&gt;参考链接&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s?srcid=&amp;scene=23&amp;sharer_sharetime=1572753611741&amp;mid=2247484046&amp;sharer_shareid=5591e3bd224a020bfe8f7577091bcec3&amp;sn=6ba3a6931f6accb202ee099948860d26&amp;idx=1&amp;__biz=MzU0Njk3NTkxOQ%3D%3D&amp;chksm=fb543b4ecc23b25897d46ee22b9c17c5d7177b20436a294b8a8aaff744c9cba9d52aeca83cb9&amp;mpshare=1#rd&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;蓝图推送&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;[https://ouuan.github.io/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%8C%87%E5%8C%97/](https://ouuan.github.io/hexo博客搭建指北/)&quot;&gt;ouuan的博客&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.jianshu.com/p/77db3862595c&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;lxmic的简书&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://theme-materialized.github.io/how-to-build-a-hexo-blog/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;code004的博客&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;出现问题&quot;&gt;&lt;a href=&quot;#出现问题&quot; class=&quot;headerlink&quot; title=&quot;出现问题&quot;&gt;&lt;/a&gt;出现问题&lt;/h3&gt;&lt;h4 id=&quot;1-网页地址跳转错误&quot;&gt;&lt;a href=&quot;#1-网页地址跳转错误&quot; class=&quot;headerlink&quot; title=&quot;1 网页地址跳转错误&quot;&gt;&lt;/a&gt;1 网页地址跳转错误&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;问题内容&lt;/p&gt;
+&lt;p&gt;点击边栏里的“标签”等选项之后，没有跳转到正确的页面，地址后会自动加上‘%20’，e.g.&lt;a href=&quot;https://xaalj.github.io/%20&quot;&gt;https://xaalj.github.io/%20&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
@@ -48,24 +48,19 @@
     <link href="https://xaalj.github.io//blog/2019/11/04/linky/"/>
     <id>https://xaalj.github.io//blog/2019/11/04/linky/</id>
     <published>2019-11-04T06:29:24.000Z</published>
-    <updated>2019-11-04T08:34:38.653Z</updated>
+    <updated>2019-11-09T17:00:17.493Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;img src=&quot;/Users/apple/Desktop/aleng.jpg&quot; alt=&quot;aleng&quot; style=&quot;zoom:72%;&quot; /&gt;
-
+      &lt;p&gt;&lt;img src=&quot;aLeng.jpg&quot; alt=&quot;aLeng&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;(TOC)&lt;/code&gt;Contents&lt;/p&gt;
-&lt;figure class=&quot;highlight
-        
-      
+&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;built_in&quot;&gt;printf&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&quot;Hello world:)\n&quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
     
+    
+      <category term="test" scheme="https://xaalj.github.io/tags/test/"/>
     
   </entry>
   

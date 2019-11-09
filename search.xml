@@ -10,13 +10,15 @@
 <h3 id="出现问题"><a href="#出现问题" class="headerlink" title="出现问题"></a>出现问题</h3><h4 id="1-网页地址跳转错误"><a href="#1-网页地址跳转错误" class="headerlink" title="1 网页地址跳转错误"></a>1 网页地址跳转错误</h4><ul>
 <li><p>问题内容</p>
 <p>点击边栏里的“标签”等选项之后，没有跳转到正确的页面，地址后会自动加上‘%20’，e.g.<a href="https://xaalj.github.io/%20">https://xaalj.github.io/%20</a></p>
+<a id="more"></a>
 </li>
 <li><p>问题原因</p>
 <p>主题配置文件中的内容发生错误</p>
 </li>
 <li><p>解决方法</p>
 <p>/themes/next/_config.yml:</p>
-<p><img src="url.png" alt="url"></p>
+<img src="/blog/2019/11/10/First-Hexo/url.png" class="" title="correct-setting">
+
 <p>i.e. 去掉地址后的空格（例子的写法是错的）</p>
 </li>
 <li><p>感谢“晓羽”大佬</p>
@@ -33,10 +35,11 @@
   <entry>
     <title>linky</title>
     <url>//blog/2019/11/04/linky/</url>
-    <content><![CDATA[<img src="/Users/apple/Desktop/aleng.jpg" alt="aleng" style="zoom:72%;" />
-
+    <content><![CDATA[<p><img src="aLeng.jpg" alt="aLeng"></p>
 <p><code>(TOC)</code>Contents</p>
 <figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span>&#123;</span><br><span class="line">  <span class="built_in">printf</span>(<span class="string">"Hello world:)\n"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
 
 <ul>
 <li>This is a list<ul>
@@ -54,6 +57,9 @@
 <p><b>Hello, I’m not sure whether it works the same</b></p>
 <p><i>So this is a italic one</i></p>
 ]]></content>
+      <tags>
+        <tag>test</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>

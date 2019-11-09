@@ -33,35 +33,6 @@
       </tags>
   </entry>
   <entry>
-    <title>linky</title>
-    <url>//blog/2019/11/04/linky/</url>
-    <content><![CDATA[<p><img src="aLeng.jpg" alt="aLeng"></p>
-<p><code>(TOC)</code>Contents</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span>&#123;</span><br><span class="line">  <span class="built_in">printf</span>(<span class="string">"Hello world:)\n"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-
-<ul>
-<li>This is a list<ul>
-<li>This is a nested list</li>
-</ul>
-</li>
-</ul>
-<p>$x^2+\cos(1+x)^3$</p>
-<p><strong>Hello</strong></p>
-<p>:smile:</p>
-<!-- comment -->
-
-</br>
-
-<p><b>Hello, I’m not sure whether it works the same</b></p>
-<p><i>So this is a italic one</i></p>
-]]></content>
-      <tags>
-        <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>//blog/2019/11/04/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>

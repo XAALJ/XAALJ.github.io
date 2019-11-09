@@ -44,27 +44,6 @@
   </entry>
   
   <entry>
-    <title>linky</title>
-    <link href="https://xaalj.github.io//blog/2019/11/04/linky/"/>
-    <id>https://xaalj.github.io//blog/2019/11/04/linky/</id>
-    <published>2019-11-04T06:29:24.000Z</published>
-    <updated>2019-11-09T17:00:17.493Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;aLeng.jpg&quot; alt=&quot;aLeng&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;(TOC)&lt;/code&gt;Contents&lt;/p&gt;
-&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;built_in&quot;&gt;printf&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&quot;Hello world:)\n&quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="test" scheme="https://xaalj.github.io/tags/test/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
     <link href="https://xaalj.github.io//blog/2019/11/04/hello-world/"/>
     <id>https://xaalj.github.io//blog/2019/11/04/hello-world/</id>
